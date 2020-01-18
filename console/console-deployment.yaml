@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: console-deployment
-  namesapce: kube-console
   labels:
     app: console
 spec:
