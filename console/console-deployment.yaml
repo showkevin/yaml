@@ -13,6 +13,7 @@ spec:
     metadata:
       labels:
         app: console
+      namesapce: kube-console
     spec:
       containers:
       - name: console
