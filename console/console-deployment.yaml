@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: console-deployment
+  namesapce: kube-console
   labels:
     app: console
 spec:
@@ -13,7 +14,6 @@ spec:
     metadata:
       labels:
         app: console
-      namesapce: kube-console
     spec:
       containers:
       - name: console
